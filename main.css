@@ -39,4 +39,8 @@
   
   section:nth-child(even) {
     background-color: #ddd;
-  }  
+  }
+  .navItems {
+    display: flex;
+    justify-content: space-around
+  }
