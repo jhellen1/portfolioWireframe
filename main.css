@@ -29,8 +29,8 @@
   
   header {
     padding: 12% 0;
+    margin-top: 10vh;
   }
-  
   section {
     min-height: 200px;
     padding: 6% 0;
@@ -40,7 +40,54 @@
   section:nth-child(even) {
     background-color: #ddd;
   }
-  .navItems {
+  .navDisplay {
     display: flex;
-    justify-content: space-around
+    justify-content: space-between;
+  }
+  .myName {
+    margin-left: 10vw;
+  }
+  .navLinks {
+    display: none;
+  }
+  .hamburger {
+    cursor: pointer;
+    margin-top: 20px;
+    margin-right: 10vw;
+  }
+  .hamburger span {
+    height: 5px;
+    width: 35px;
+    background-color: black;
+    display: block;
+    margin: 6px 0;
+  }
+  .bio h4 {
+    margin: 0 5vw;
+  }
+  header h4 {
+    margin: 0 5vw;
+  }
+  @media (min-width: 768px) {
+    header {
+      padding: 12% 0;
+      margin-top: 5vh;
+    }
+    .navLinks {
+      display: inline-block;
+      margin-top: 25px;
+      margin-right: 10vw;
+    }
+    .navLinks a {
+      margin-right: 5px;
+    }
+    .hamburger{
+      display: none;
+    }
+    .bio h4 {
+      margin: 0 15vw;
+    }
+    header h4 {
+      margin: 0 15vw;
+    }
   }
