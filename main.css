@@ -16,7 +16,6 @@
     padding: 1% 0;
     background-color: #aaa;
   }
-  
   nav {
     position: fixed;
     top: 0;
@@ -24,11 +23,7 @@
     right: 0;
     z-index: 10;
   }
-  
-  
-  
   header {
-    padding: 12% 0;
     margin-top: 10vh;
   }
   section {
@@ -62,6 +57,11 @@
     display: block;
     margin: 6px 0;
   }
+  header img {
+    max-width: 50vw;
+    max-height: 50vw;
+    margin-top: 5vh;
+  }
   .bio h4 {
     margin: 0 5vw;
   }
@@ -70,8 +70,13 @@
   }
   @media (min-width: 768px) {
     header {
-      padding: 12% 0;
       margin-top: 5vh;
+      margin-bottom: 3vh;
+    }
+    header img {
+      max-width: 50vw;
+      max-height: 50vw;
+      margin-top: 2vh;
     }
     .navLinks {
       display: inline-block;
