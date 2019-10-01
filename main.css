@@ -73,6 +73,10 @@
   header p {
     margin: 0 30px;
   }
+  .project_one img {
+    max-width: 300px;
+    max-height: 300px;
+  }
   @media (min-width: 768px) {
     header {
       border: 5px solid red;
@@ -97,5 +101,13 @@
     }
     header p {
       margin: 0 45px;
+    }
+    .project_one img {
+      max-width: 400px;
+      max-height: 400px;
+    }
+    .ghLogo {
+      max-height: 32px;
+      max-width: 32px;
     }
   }
