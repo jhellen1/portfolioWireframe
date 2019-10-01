@@ -78,9 +78,6 @@
     max-height: 300px;
   }
   @media (min-width: 768px) {
-    header {
-      border: 5px solid red;
-    }
     header img {
       max-width: 300px;
       max-height: 300px;
