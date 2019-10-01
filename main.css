@@ -15,6 +15,11 @@
   footer {
     padding: 1% 0;
     background-color: #aaa;
+    text-align: left;
+  }
+  footer a {
+    font-size: 15px;
+    margin-left: 60px;
   }
   nav {
     position: fixed;
@@ -62,10 +67,10 @@
     max-width: 200px;
     max-height: 200px;
   }
-  .bio h4 {
+  .bio p {
     margin: 0 30px;
   }
-  header h4 {
+  header p {
     margin: 0 30px;
   }
   @media (min-width: 768px) {
@@ -87,10 +92,10 @@
     .hamburger{
       display: none;
     }
-    .bio h4 {
+    .bio p {
       margin: 0 45px;
     }
-    header h4 {
+    header p {
       margin: 0 45px;
     }
   }
